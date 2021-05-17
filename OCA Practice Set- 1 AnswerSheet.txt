@@ -1,0 +1,11 @@
+1. Yes, HELLO is printed to the console.
+2. 5
+3. null
+   null 		
+4. APRIL:4
+5. B E C D
+6. [orange,mango,banana,grape]
+7. None of these (Gosling)
+8. C option
+9. boolean test(T t)
+10. D option

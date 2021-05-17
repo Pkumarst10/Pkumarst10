@@ -1,0 +1,20 @@
+package pk;
+
+import java.util.*;
+
+public class Itr {
+	public static void main(String[] args) {
+		Set<Integer> set=new HashSet<Integer>();
+			Set<Integer> number = Number();
+		Iterator<Integer> itr= num.iterator();
+		while(itr.hasNext())
+			System.out.print(itr.next()+" ");
+	}
+static	public Set Number() {
+	Set<Integer> set=new HashSet<Integer>();
+		for(int j=0;j<=10;j++) {
+			set.add(j);
+		}
+		return set;
+	}
+}

@@ -1,0 +1,67 @@
+package pk;
+
+import java.util.Map;
+import java.util.*;
+
+public class HashMaps {
+public static void main(String[] args) {
+	Map<Integer,String> h=new HashMap<>();
+	add(h);
+	for(Integer s:h.keySet()) {
+		System.out.println(s+" "+h.get(s)+" ");
+		
+	}
+	
+}
+
+private static void add(Map<Integer, String> h) {
+	h.put(1,"PK");
+	h.put(2,"Vishal");
+	h.put(3,"Gopi")
+	}
+}
+
+
+// import java.util.Scanner;  Question 2
+
+// class Test{
+// 	public static void main(String[] args) {
+// 		Scanner sc=new Scanner(System.in);
+// 		int N=sc.nextInt();
+// 		int M=sc.nextInt();
+// 		for(int i=1;i<=M;i++){
+// 			// N*i=output
+// 			System.out.println(N+"*"+i+"="+N*i);
+// 		}
+// 	}
+// }
+
+// import java.util.Scanner;
+
+// class Test{
+// 	public static void main(String[] args) {
+// 		Scanner sc=new Scanner(System.in);
+// 		int N=sc.nextInt();
+// 		int Sum=0;
+// 		for(int i=1;i<=N;i++){
+// 		int x=i%2;
+// 		int y=!x;
+// 		Sum=Sum+x;
+// 		Sum1=Sum1+y;
+// 		System.out.println("Even "+Sum);
+// 		System.out.println("Odd "+Sum1);
+// 		}
+// 	}
+// }
+
+import java.util.Scanner;
+
+class Prime{
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		int n=sc.nextInt();
+		for(int i=1;i<=n;i++){
+			
+		}
+	}
+}

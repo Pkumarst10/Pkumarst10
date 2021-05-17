@@ -1,0 +1,22 @@
+	package pk;
+	
+	import java.time.LocalDate;
+	public class Date_Time {
+	
+		public static void main(String[] args) {
+			LocalDate Today = LocalDate.now();
+			LocalDate DOB = LocalDate.of(2020,04,18);
+			if(DOB.equals(Today))
+			{
+				System.out.printf("Today %s and DOB %s are the same date %u",Today,DOB);
+			}
+			int year=Today.getYear();
+			int month=Today.getMonthValue();
+			int day=Today.getDayOfMonth();
+			
+			System.out.printf("Year:%d Month:%d day:%d \t %n",year,month,day);
+			
+			System.out.println(DOB);
+			System.out.println(Today);
+			}
+	}

@@ -1,0 +1,43 @@
+package pk;
+
+import java.util.*;
+public class set {
+	
+		public static void main(String[] args) {
+			country();
+			Exnum();
+			Number();
+			System.out.println(cou);
+			System.out.println(num);
+			
+		}
+		static Set<String> cou=new HashSet <String> ();
+		static Set<Integer> num=new HashSet <Integer> ();
+		
+		static Set country()
+		{
+			
+			cou.add("India");
+			cou.add("Australia");
+			cou.add("Bangladesh");
+			cou.add("Nepal");
+			cou.add("Canada");
+			return cou;
+		}
+		static Set Number()
+		{
+			for(int i=1;i<=10;i++) {
+				num.add(i);
+				
+			}
+			return num;
+		}
+		static Set Exnum()
+		{
+			for(int i=11;i<=15;i++) {
+				num.add(i);
+				
+			}
+			return num;
+		}
+		}
